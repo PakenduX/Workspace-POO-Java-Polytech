@@ -1,0 +1,15 @@
+package tp5;
+
+public class OpMul extends Terme{
+	
+	private Terme droite;
+	private Facteur gauche;
+	
+	
+	public Terme getDroite() {
+		return droite;
+	}
+	public Facteur getGauche() {
+		return gauche;
+	}
+}

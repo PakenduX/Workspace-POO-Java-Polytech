@@ -1,0 +1,18 @@
+package tp5;
+
+import java.util.HashMap;
+
+public class Variable extends Facteur{
+	
+	private HashMap kv;
+	
+	public Variable(HashMap kv) {
+		this.kv = kv;
+	}
+	
+	public String evaluer() {
+		return value + "";
+		
+	}
+	
+}

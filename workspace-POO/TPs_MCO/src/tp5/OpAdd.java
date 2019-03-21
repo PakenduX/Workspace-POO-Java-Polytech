@@ -1,0 +1,13 @@
+package tp5;
+
+public abstract class OpAdd extends Expression{
+	
+	protected Terme gauche;
+	protected Expression droite;
+	
+	public OpAdd(Terme gauche, Expression droite) {
+		this.gauche = gauche;
+		this.droite = droite;
+	}
+	public abstract double evaluer();
+}

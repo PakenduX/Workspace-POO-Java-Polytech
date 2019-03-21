@@ -1,0 +1,6 @@
+package tp5;
+
+public abstract class Expression {
+
+	public abstract void evaluer();
+}

@@ -1,0 +1,22 @@
+package tp2;
+
+public class Image extends Forme{
+	
+	private Point origine;
+	private Forme tabForms[];
+	private int nbForms;
+	private final int TAILLE = 20;
+	
+	public Image() {
+		origine = new Point();
+		tabForms = new Forme[TAILLE];
+		nbForms = 0;
+		
+	}
+	
+	public Image(Point p) {
+		this.origine = p;
+		tabForms = new Forme[TAILLE];
+		nbForms = 0;
+	}
+}

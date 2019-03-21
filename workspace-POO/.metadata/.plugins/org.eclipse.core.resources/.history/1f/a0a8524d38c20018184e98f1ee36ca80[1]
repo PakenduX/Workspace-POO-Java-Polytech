@@ -1,0 +1,20 @@
+package tp2;
+
+public class Cercle extends Forme{
+	
+	private Point origine;
+	private int rayon;
+	
+	public Cercle(Point origine, int rayon) {
+		this.origine = origine;
+		this.rayon = rayon;
+	}
+	
+	public void dessiner(PileTransformations p) {
+		System.out.println("Dessin d'un cercle de centre c = " + this.origine.additionner(p.getTransCou()) + " et de rayon r = " + this.rayon);
+	}
+	
+	public void deplacer(Point p) {
+		this.origine.additionner(p);
+	}
+}

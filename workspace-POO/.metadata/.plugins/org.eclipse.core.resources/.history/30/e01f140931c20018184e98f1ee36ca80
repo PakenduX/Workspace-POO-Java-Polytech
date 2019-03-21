@@ -1,0 +1,30 @@
+package tp2;
+
+public class PileTransformations {
+	
+	private Point[] transform;
+	private int transCou;
+	private final int TAILLE = 10;
+	
+	public PileTransformations() {
+		transform = new Point[TAILLE];
+		transCou = 0;
+	}
+	
+	public Point getTransCou() {
+		return transform[this.transCou];
+	}
+	
+	public void empiler(Point p) {
+		if(transCou == 0)
+			transform[transCou] = p;
+		else
+			transform[transCou] = p.additionner(transform[transCou]);
+		
+		transCou++;
+	}
+	
+	public void depiler() {
+		transCou--;
+	}
+}

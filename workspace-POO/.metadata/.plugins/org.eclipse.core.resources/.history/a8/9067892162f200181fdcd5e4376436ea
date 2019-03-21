@@ -1,0 +1,9 @@
+package tp5;
+
+public class Terme extends Expression{
+
+	public void evaluer() {
+		
+	}
+	
+}

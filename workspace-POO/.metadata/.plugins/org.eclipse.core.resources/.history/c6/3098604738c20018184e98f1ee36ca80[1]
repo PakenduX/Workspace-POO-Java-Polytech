@@ -1,0 +1,22 @@
+package tp2;
+
+public class Segment extends Forme{
+	
+	private Point a;
+	private Point b;
+	
+	public Segment(Point a, Point b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void dessiner(PileTransformations p) {
+		System.out.println("Dessin d'un segment allan du point a = " + this.a.additionner(p.getTransCou()) + " à b = " + this.b.additionner(p.getTransCou()));
+	}
+	
+	public void deplacer(Point p) {
+		this.a.additionner(p);
+		this.b.additionner(p);
+	}
+
+}

@@ -1,0 +1,17 @@
+package tp5;
+
+//TODO Table associative
+public class Variable extends Facteur{
+	
+	private char value;
+	
+	public Variable(char value) {
+		this.value = value;
+	}
+	
+	public double evaluer() {
+		return value;
+		
+	}
+	
+}

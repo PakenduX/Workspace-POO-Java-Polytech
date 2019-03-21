@@ -1,0 +1,13 @@
+package tp7;
+
+import java.util.ArrayDeque;
+
+public interface Adaptateur<E> extends ArrayDeque<E>{
+	
+	public void push(E e);
+	
+	public E peek();
+	
+	public E pop();
+
+}

@@ -1,0 +1,22 @@
+package tp7;
+
+import java.util.ArrayList;
+
+public class Pile<E> extends ArrayList<E> implements Adaptateur{
+
+	public void push(Object e) {
+		this.add((E) e);
+	}
+
+	public Object peek() {
+		
+		return this.get(this.size()-1);
+	}
+
+	public Object pop() {
+		Object res = this.get(this.size()-1);
+		this.remove(this.size()-1);
+		return res;
+	}
+
+}

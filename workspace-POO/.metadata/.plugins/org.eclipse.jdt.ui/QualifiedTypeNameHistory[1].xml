@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="tp2.Structure"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="tp1.Liste"/>
+    <fullyQualifiedTypeName name="tp3.PileVide"/>
+    <fullyQualifiedTypeName name="tp3.NotElementEntiers"/>
+    <fullyQualifiedTypeName name="tp3.NotElementListe"/>
+    <fullyQualifiedTypeName name="tp3.HorsLimites"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.SortedMap"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="tp1.Entiers"/>
+    <fullyQualifiedTypeName name="tp2.Point"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="tp4.Infos"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+</qualifiedTypeNameHistroy>

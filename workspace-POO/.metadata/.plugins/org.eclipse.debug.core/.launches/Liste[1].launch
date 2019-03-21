@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/TPs-POO/src/tp1/Liste.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<listAttribute key="org.eclipse.eclemma.core.SCOPE_IDS">
+<listEntry value="=TPs-POO/src"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="tp1.Liste"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TPs-POO"/>
+</launchConfiguration>

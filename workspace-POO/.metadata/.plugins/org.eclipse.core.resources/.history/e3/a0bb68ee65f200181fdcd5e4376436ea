@@ -1,0 +1,16 @@
+package tp5;
+
+public class Variable extends Facteur{
+	
+	private char value;
+	
+	public Variable(char value) {
+		this.value = value;
+	}
+	
+	public double evaluer() {
+		return value;
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package tp2;
+
+public class Forme {
+	
+	public void dessiner(PileTransformations p) {
+		
+	}
+	
+	public void deplacer(Point p) {
+		
+	}
+
+}

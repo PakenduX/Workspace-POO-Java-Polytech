@@ -1,0 +1,21 @@
+package tp2;
+
+public class Segment extends Forme{
+	
+	private Point a;
+	private Point b;
+	
+	public Segment(Point a, Point b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void dessiner(PileTransformations p) {
+		
+	}
+	
+	public void deplacer(Point p) {
+		
+	}
+
+}

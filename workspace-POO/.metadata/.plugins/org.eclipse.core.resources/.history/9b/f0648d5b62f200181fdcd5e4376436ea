@@ -1,0 +1,9 @@
+package tp5;
+
+public class Chiffre extends Facteur{
+	
+	public void evaluer() {
+		
+	}
+
+}

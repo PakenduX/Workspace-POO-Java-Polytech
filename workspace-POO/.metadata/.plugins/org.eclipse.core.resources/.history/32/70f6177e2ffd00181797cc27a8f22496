@@ -1,0 +1,16 @@
+package tp7;
+
+public class MaClasse {
+	Command cDeb;
+	Command cFin;
+	
+	public void f() {
+		cDeb.execute("f");
+		cFin.execute("f");
+	}
+	
+	public void setCommand(Command c1, Command c2) {
+		cDeb = c1;
+		cFin = c2;
+	}
+}

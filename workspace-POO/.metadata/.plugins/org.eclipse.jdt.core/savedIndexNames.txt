@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/pap-c/workspace-POO/.metadata/.plugins/org.eclipse.jdt.core
+4127830399.index
+4171179919.index
+2406786631.index

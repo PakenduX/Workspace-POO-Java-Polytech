@@ -1,0 +1,20 @@
+package tp2;
+
+public class Cercle {
+	
+	private Point origine;
+	private int rayon;
+	
+	public Cercle(Point origine, int rayon) {
+		this.origine = origine;
+		this.rayon = rayon;
+	}
+	
+	public void dessiner(PileTransformations p) {
+		
+	}
+	
+	public void deplacer(Point p) {
+		
+	}
+}

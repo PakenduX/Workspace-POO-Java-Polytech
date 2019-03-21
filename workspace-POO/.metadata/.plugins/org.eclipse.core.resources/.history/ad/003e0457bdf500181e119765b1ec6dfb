@@ -1,0 +1,17 @@
+package tp5;
+
+//TODO on a besoin du polymorphisme
+public class ExprPar extends Facteur{
+	
+	private Expression expr;
+	
+	public ExprPar(Expression expr) {
+		this.expr = expr;
+	}
+	
+	public double evaluer() {
+		
+	
+	}
+	
+}

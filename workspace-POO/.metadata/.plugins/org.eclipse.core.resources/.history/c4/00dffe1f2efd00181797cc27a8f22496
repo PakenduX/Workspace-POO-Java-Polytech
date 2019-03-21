@@ -1,0 +1,16 @@
+package tp7;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Command c1 = new Com1();
+		Command c2 = new Com2();
+		MaClasse mc = new MaClasse();
+		mc.setCommand(c1, c2);
+		mc.f();
+		
+
+	}
+
+}

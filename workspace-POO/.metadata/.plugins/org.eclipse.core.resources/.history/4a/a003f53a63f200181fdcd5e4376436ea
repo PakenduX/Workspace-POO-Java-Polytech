@@ -1,0 +1,12 @@
+package tp5;
+
+public class Chiffre extends Facteur{
+	
+	private double valeur;
+	
+	public double evaluer() {
+		return valeur;
+		
+	}
+
+}

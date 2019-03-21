@@ -1,0 +1,22 @@
+package tp2;
+
+public class Forme {
+	
+	private Point origine;
+	
+	public Forme(Point origine) {
+		this.origine = origine;
+	}
+	
+	public Point getOrigine() {
+		return this.origine;
+	}
+	public void dessiner(PileTransformations p) {
+		
+	}
+	
+	public void deplacer(Point p) {
+		
+	}
+
+}

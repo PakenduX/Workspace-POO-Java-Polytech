@@ -1,0 +1,47 @@
+package tp6;
+
+import tp6.Entiers.EntIterator;
+import tp6.Liste.ListIterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Entiers e = new Entiers(20);
+		e.inserer(1);
+		e.inserer(2);
+		e.inserer(5);
+		e.inserer(6);
+		e.inserer(8);
+		e.inserer(4);
+		e.inserer(3);
+		
+		Liste l = new Liste();
+		l.inserer(1);
+		l.inserer(2);
+		l.inserer(3);
+		l.inserer(5);
+		l.inserer(7);
+		l.inserer(10);
+		
+		EntIterator eit = (EntIterator) e.createIterator();
+		while(!eit.fin()) {
+			System.out.println(eit.courant());
+			eit.suivant();
+		}
+		
+		System.out.println("La liste : ");
+		ListIterator lit = (ListIterator)l.createIterator();
+		System.out.println("Insertion au niveau de l'itérateur : ");
+		lit.insere(20);
+		lit.insere(87);
+		while(!lit.fin()) {
+			System.out.println(lit.courant());
+			lit.suivant();
+		}
+		lit.init();
+		System.out.println("Élément courant après réinitialisation : " + lit.courant());
+		
+
+	}
+
+}

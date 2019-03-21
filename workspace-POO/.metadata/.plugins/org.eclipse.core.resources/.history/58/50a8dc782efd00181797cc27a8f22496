@@ -1,0 +1,24 @@
+package tp7;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Command c1 = new Com1();
+		Command c2 = new Com2();
+		Liste l = new Liste();
+		l.inserer(1);
+		l.inserer(2);
+		l.inserer(3);
+		l.inserer(5);
+		l.inserer(7);
+		l.inserer(10);
+		
+		l.setCommand(c1, c2);
+		l.afficher();
+		
+		
+
+	}
+
+}

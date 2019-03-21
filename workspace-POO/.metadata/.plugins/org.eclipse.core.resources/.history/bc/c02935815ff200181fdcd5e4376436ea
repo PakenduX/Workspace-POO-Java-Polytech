@@ -1,0 +1,7 @@
+package tp5;
+
+public class OpMul extends Terme{
+	
+	private Terme droite;
+	private Facteur gauche;
+}
